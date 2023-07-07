@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * flip_bits - counts the numb of bits to change
- * to get from one numb to another
- * @n: first numb
- * @m: second nimb
- * Return: numb of bits to change
+ * flip_bits - counts the number of bits to change
+ * to get from one number to another
+ * @n: first number
+ * @m: second number
+ *
+ * Return: number of bits to change
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
@@ -19,5 +21,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 			count++;
 	}
 
-	return (count)
+	return (count);
 }
+
